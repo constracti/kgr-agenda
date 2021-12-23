@@ -1,0 +1,32 @@
+.kgr-agenda-flex-row {
+	display: flex;
+}
+.kgr-agenda-flex-col {
+	display: flex;
+	flex-direction: column;
+}
+.kgr-agenda-flex-wrap {
+	flex-wrap: wrap;
+}
+.kgr-agenda-flex-justify-start {
+	justify-content: start;
+}
+.kgr-agenda-flex-justify-between {
+	justify-content: space-between;
+}
+.kgr-agenda-flex-justify-end {
+	justify-content: end;
+}
+.kgr-agenda-flex-align-center {
+	align-items: center;
+}
+
+.kgr-agenda-root {
+	padding: 8px;
+}
+.kgr-agenda-root .kgr-agenda-leaf {
+	margin: 8px;
+}
+.kgr-agenda-root-border {
+	border: thin solid #c3c4c7;
+}
